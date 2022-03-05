@@ -1,0 +1,78 @@
+html {
+  background-color: #1d2f6f;
+}
+
+.HomePage .Search input {
+  font-size: 2.5rem;
+  color: #e6e6e6;
+  font-family: cursive;
+  display: block;
+  width: 50%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  margin: auto;
+  background-color: #8390fa;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0px 5px rgba(255, 255, 255, 0.2);
+  margin-top: 100px;
+}
+
+.Card {
+  font-size: 2.5rem;
+  color: #264653;
+  font-family: cursive;
+  display: block;
+  width: 30%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  margin: auto;
+  background-color: #fac748;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0px 5px rgba(255, 255, 255, 0.2);
+  margin-top: 100px;
+}
+
+.Card .City {
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
+}
+.Details {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+}
+
+.Card .Temp {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: auto;
+}
+
+.Card .Text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+img {
+  width: 35%;
+}
+
+figure {
+  display: flex;
+}
+
+figcaption {
+  font-size: 2rem;
+  padding-top: 40px;
+}
+
+::placeholder {
+  color: #e6e6e6;
+}
